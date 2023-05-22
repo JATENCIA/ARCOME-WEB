@@ -33,7 +33,7 @@ const Hero = () => {
               Hello!
               <br />
             </span>
-            We are <span>Arcome</span>
+            We are <span>ARCOME</span>
           </h1>
           <h4 className="md:text-2xl text-lg md:leading-normal leading-5 mt-4 font-bold text-gray-500">
             web service

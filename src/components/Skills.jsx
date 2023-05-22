@@ -4,22 +4,18 @@ const Skills = () => {
   const skills = [
     {
       logo: "logo-react",
-      level: "Intermediate",
       count: 70,
     },
     {
       logo: "logo-nodejs",
-      level: "Intermediate",
       count: 70,
     },
     {
       logo: "logo-html5",
-      level: "Intermediate",
       count: 70,
     },
     {
       logo: "logo-css3",
-      level: "Intermediate",
       count: 70,
     },
   ];
@@ -27,9 +23,9 @@ const Skills = () => {
     <section id="skills" className="py-10 bg-gray-800 relative">
       <div className="mt-8 text-gray-100 text-center">
         <h3 className="text-4xl font-semibold">
-          My <span className="text-cyan-600">Skills</span>
+          Our <span className="text-cyan-600">Skills</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">My knowledge</p>
+        <p className="text-gray-400 mt-3 text-lg">Our knowledge</p>
         <div className="flex items-center justify-center mt-12 gap-10 flex-wrap">
           {skills?.map((skill, i) => (
             <div
@@ -46,7 +42,6 @@ const Skills = () => {
                   <ion-icon name={skill.logo}></ion-icon>
                 </div>
               </div>
-              <p className="text-xl mt-3">{skill.level}</p>
             </div>
           ))}
         </div>
