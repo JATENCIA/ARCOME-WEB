@@ -9,12 +9,12 @@ const Hireme = () => {
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
       </div>
-      <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
+      <div className="bg-gray-700 relative px-8 rounded-2xl py-10 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
-          <h2 className="text-2xl font-semibold">
+          <h2 className=" text-2xl font-semibold">
             Do you want any work from me?
           </h2>
-          <p className=" text-justify max-w-lg text-sm mt-4 text-gray-200 leading-7">
+          <p className="text-justify max-w-lg text-sm mt-4 text-gray-200 leading-7">
             Are you looking for a Full Stack developer with knowledge of
             technologies such as React, Node, Express, Redux, MongoDB, Mongoose,
             PostgreSQL, Sequelize, Git, GitHub, HTML, and CSS? Look no further!
