@@ -14,7 +14,7 @@ const Hireme = () => {
         <h3 className="text-4xl font-semibold">
           Our <span className="text-cyan-600">Solutions</span>
         </h3>
-        <p className="text-gray-400 mt-3 text-lg">Do you have any work?</p>
+        <p className="text-gray-400  text-lg">Do you have any work?</p>
       </div>
       <div className="bg-gray-700 relative px-8 rounded-2xl py-5 lg:max-w-4xl mx-auto min-h-[24rem] mt-24 flex gap-6 lg:flex-row flex-col-reverse items-center">
         <div>
@@ -31,20 +31,20 @@ const Hireme = () => {
             development can help you achieve your goals.
           </p>
           <br />
-          <div className="grid grid-cols-2 grid-rows-2 gap-4">
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             {ourSolutions.map((elem, i) => (
               <div
                 key={i}
-                className="text-justify text-1xl 8 text-cyan-600  group-hover:text-cyan-600 "
+                className="text-justify text-1xl max-w-lg text-cyan-600 group-hover:text-cyan-600 leading-7"
               >
                 <p>
-                  {" "}
                   <ion-icon name={elem.logo}></ion-icon> &nbsp; {elem.name}
                 </p>
               </div>
             ))}
-            <a href="#contact">
-              <button className="btn-primary mt-10">Say Hello</button>
+            <a href="#contact" className="mt-10">
+              <button className="btn-primary">Say Hello</button>
             </a>
           </div>
         </div>
