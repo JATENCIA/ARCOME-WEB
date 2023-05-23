@@ -8,11 +8,15 @@ const Contact = () => {
 
   const contact_info = [
     { logo: "mail", text: "arcome.websolutions@gmail.com" },
-    { logo: "logo-whatsapp", text: "+54 93512455236" },
-    // {
-    //   logo: "location",
-    //   text: "Bogotá D.C Colombia",
-    // },
+    {
+      logo: "logo-whatsapp",
+      text: "+54 93512455236",
+      link: "https://api.whatsapp.com/send?phone=543512455236",
+    },
+    {
+      logo: "location",
+      text: "Argentina - Colombia - Mexico",
+    },
   ];
 
   const intialState = {
@@ -65,7 +69,7 @@ const Contact = () => {
     <section id="contact" className="py-10 px-3 text-white">
       <div className="text-center mt-8">
         <h3 className="text-4xl font-semibold">
-          Contact <span className="text-cyan-600">Me</span>
+          Contact <span className="text-cyan-600">Us</span>
         </h3>
         <p className="text-gray-400 mt-3 text-lg">Get in touch</p>
 
@@ -104,18 +108,20 @@ const Contact = () => {
           </form>
           <div className="flex flex-col  gap-7 ">
             {contact_info.map((contact, i) => (
-              <div
-                key={i}
-                className="flex flex-row  
+              <a href={contact.link} target="_blank">
+                <div
+                  key={i}
+                  className="flex flex-row  
                   text-left gap-4 flex-wrap items-center"
-              >
-                <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
-                  <ion-icon name={contact.logo}></ion-icon>
+                >
+                  <div className="min-w-[3.5rem]  text-3xl min-h-[3.5rem] flex items-center justify-center text-white bg-cyan-600 rounded-full">
+                    <ion-icon name={contact.logo}></ion-icon>
+                  </div>
+                  <p className="md:text-base text-sm  break-words">
+                    {contact.text}
+                  </p>
                 </div>
-                <p className="md:text-base text-sm  break-words">
-                  {contact.text}
-                </p>
-              </div>
+              </a>
             ))}
           </div>
         </div>
