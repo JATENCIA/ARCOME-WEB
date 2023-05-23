@@ -7,12 +7,12 @@ const Contact = () => {
   const form = useRef();
 
   const contact_info = [
-    { logo: "mail", text: "atenciajaramillo@gmail.com" },
-    { logo: "logo-whatsapp", text: "+57 3136040850" },
-    {
-      logo: "location",
-      text: "Bogotá D.C Colombia",
-    },
+    { logo: "mail", text: "arcome.websolutions@gmail.com" },
+    { logo: "logo-whatsapp", text: "+54 93512455236" },
+    // {
+    //   logo: "location",
+    //   text: "Bogotá D.C Colombia",
+    // },
   ];
 
   const intialState = {
