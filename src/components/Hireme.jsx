@@ -1,5 +1,5 @@
 import React from "react";
-import hireMe from "../assets/images/naruto.png";
+import hireMe from "../assets/images/robot7.png";
 const Hireme = () => {
   return (
     <section id="hireme" className="py-10 px-3 text-white">

@@ -2,7 +2,7 @@ import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import project1 from "../assets/images/project-1.png";
 import project2 from "../assets/images/project-2.png";
-import project_person from "../assets/images/naruto5.png";
+import project_person from "../assets/images/Robot9.png";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
