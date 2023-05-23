@@ -37,7 +37,7 @@ const Navbar = () => {
                     WebkitTextFillColor: "transparent",
                     opacity: 1,
                     textShadow:
-                      "3px 3px 5px rgba(0, 0, 0, 0.8), -3px -3px 5px rgba(0, 0, 0, 0.8)",
+                      "3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0, 0, 0, 0.5)",
                   }}
                 >
                   AR
@@ -51,7 +51,7 @@ const Navbar = () => {
                     WebkitTextFillColor: "transparent",
                     opacity: 1,
                     textShadow:
-                      "3px 3px 5px rgba(0, 0, 0, 0.8), -3px -3px 5px rgba(0, 0, 0, 0.8)",
+                      "3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0, 0, 0, 0.5)",
                   }}
                 >
                   CO
@@ -65,7 +65,7 @@ const Navbar = () => {
                     WebkitTextFillColor: "transparent",
                     opacity: 1,
                     textShadow:
-                      "3px 3px 5px rgba(0, 0, 0, 0.8), -3px -3px 5px rgba(0, 0, 0, 0.8)",
+                      "3px 3px 5px rgba(0, 0, 0, 0.5), -3px -3px 5px rgba(0, 0, 0, 0.5)",
                   }}
                 >
                   ME
